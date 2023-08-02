@@ -18,7 +18,7 @@ This project consists of a set of utility functions designed to manage logging w
 
 ## Code Description
 <p align="justify">
-The code is organized into various async functions. The `dateTimeInfo` function retrieves and formats the current date and time. The `formatLogName` function creates a log file name based on specific session and chat ID. The `createLogDirectories` function builds necessary directories for logging by date, year, month, and day, while `validateDir` validates or creates required directories for sessions. Additionally, there are functions to create a Winston logger (`createMyLogger`) and to log specific text messages (`logWpp`), all tailored to handle chat interactions. Error handling is integrated within each function to ensure robust performance.
+The code is organized into various async functions. The `dateTimeInfo` function retrieves and formats the current date and time. The `formatLogName` function creates a log file name based on specific session and chat ID. The `createLogDirectories` function builds necessary directories for logging by date, year, month, and day, while `validateDir` validates or creates required directories for sessions. Additionally, there are functions to create a Winston logger (`createMyLogger`) and to log specific text messages (`logWpp`). Error handling is integrated within each function to ensure robust performance.
 </p>
 
 ## Getting Started
@@ -43,12 +43,12 @@ Execute the code by running your main application file through Node.js (e.g., `n
 
 ## Descrição do Projeto
 <p align="justify">
-Este projeto consiste em um conjunto de funções utilitárias projetadas para gerenciar o registro (logging) dentro de uma determinada aplicação. Ele facilita a geração de nomes de arquivos de log e carimbos de data/hora, bem como a criação de diretórios aninhados para organizar os arquivos de log por data, ano, mês e dia. Essa arquitetura permite o rastreamento e recuperação abrangentes de logs relacionados a várias sessões e interações de chat. A funcionalidade é encapsulada principalmente dentro de funções assíncronas, aproveitando bibliotecas populares como Winston para registro e o módulo nativo fs para operações de sistema de arquivos.
+Este projeto consiste em um conjunto de funções utilitárias projetadas para gerenciar o registro (logging) dentro de uma determinada aplicação. Ele facilita a geração de nomes de arquivos de log e carimbos de data/hora, bem como a criação de diretórios aninhados para organizar os arquivos de log por data, ano, mês e dia. Essa arquitetura permite o rastreamento e recuperação abrangentes de logs. A funcionalidade é encapsulada principalmente dentro de funções assíncronas, aproveitando bibliotecas populares como Winston para registro e o módulo nativo fs para operações de sistema de arquivos.
 </p>
 
 ## Descrição do código
 <p align="justify">
-O código é organizado em várias funções assíncronas. A função `dateTimeInfo` recupera e formata a data e hora atuais. A função `formatLogName` cria um nome de arquivo de log com base em uma sessão e ID de chat específicos. A função `createLogDirectories` constrói os diretórios necessários para registro por data, ano, mês e dia, enquanto `validateDir` valida ou cria os diretórios necessários para as sessões. Além disso, existem funções para criar um registrador Winston (`createMyLogger`) e para registrar mensagens de texto específicas (`logWpp`), todas adaptadas para lidar com interações de chat. O tratamento de erros está integrado em cada função para garantir um desempenho robusto.
+O código é organizado em várias funções assíncronas. A função `dateTimeInfo` recupera e formata a data e hora atuais. A função `formatLogName` cria um nome de arquivo de log com base em uma sessão e ID de chat específicos. A função `createLogDirectories` constrói os diretórios necessários para registro por data, ano, mês e dia, enquanto `validateDir` valida ou cria os diretórios necessários para as sessões. Além disso, existem funções para criar um registrador Winston (`createMyLogger`) e para registrar mensagens de texto específicas (`logWpp`). O tratamento de erros está integrado em cada função para garantir um desempenho robusto.
 </p>
 
 ## Iniciando
